@@ -33,7 +33,17 @@ class _AboutState extends State<About> {
             profile_card("Mobil Programlama", Icons.book),//Sadece label ve Icon'u seçerek aynı card widgetini kullanmamıza olanak sağlandı.
             profile_card("183301099", Icons.adb),
             profile_card("Ahmet Mutlu", Icons.account_box_outlined),
-
+            Container(
+              width:300.0,
+              height: 150,
+              child: Text("Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen "
+                  "3301456 kodlu MOBİL PROGRAMLAMA dersi kapsamında 183301099 numaralı Öğrenci Ahmet Mutlu "
+                  "tarafından 30 Nisan 2021 günü yapılmıştır.",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 16
+              ),),
+            )
           ],
         ),
       ),
