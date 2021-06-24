@@ -12,8 +12,14 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
   http: ^0.13.1
+  flutter_staggered_animations: "^1.0.0"
+  font_awesome_flutter: ^9.0.0
+  animated_floatactionbuttons: ^0.1.0
+  splash_screen_view: ^3.0.0
+  flutter_animation_progress_bar: ^2.0.0
+
+
 
 dev_dependencies:
   flutter_test:
@@ -24,7 +30,9 @@ flutter:
   uses-material-design: true
 
   assets:
-     - images/
+    - images/
+    - images/icons/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

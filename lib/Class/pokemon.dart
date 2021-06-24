@@ -82,6 +82,7 @@ class Pokemon {
         nextEvolution.add(new NextEvolution.fromJson(v));
       });
     }
+
   }
 
   Map<String, dynamic> toJson() {
